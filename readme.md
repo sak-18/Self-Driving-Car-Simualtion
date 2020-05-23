@@ -1,19 +1,19 @@
 # Self driving Car Simulation
-# installation_requirements
+# Installation_requirements
 ## Unity Game engine
-you can install Unity game engine at https://unity3d.com .You can use personal version for udacity self driving car simulation.
+You can install Unity game engine at https://unity3d.com .You can use personal version for udacity self driving car simulation.
 ## Git LFS
 Our car simulator uses Git LFS to store large files, by using pointers and stores the files on remote server like https://github.com .Make sure Git is installed before you you use git lfs.Refer this video to install git on your machine. https://www.youtube.com/watch?v=J_Clau1bYco
 
 ## Udacity self driving car simulator
-open terminal on your computer and clone the project.
+Open terminal on your computer and clone the project.
 ## Dependencies
-you need a anaconda to use environment setting.
+You may need anaconda installed for setting up the required environment.
 
 # Project Description
 _________________
-we used two models to train the self driving car simulator.one was based on Nvidia Model and we used another model based on VGG16 by removing top layer.
-It is supervised learning model based on the images captured by car and corresponding steering angles.It is sequential and single agent based.
+We used two models to train the self driving car simulator.one was based on Nvidia Model and we used another model based on VGG16 by removing top layer.
+It is a supervised learning model based on the images captured by car and corresponding steering angles.It is sequential and single agent based.
 
 # **Nvidia Model**
 As the image is processed, the model is using convolutional layers for automated feature engineering.
@@ -23,9 +23,6 @@ As the image is processed, the model is using convolutional layers for automated
 * model.h5 is pretrained model.
 * environments.yml conda environment(use tensorflow without GPU)
 * environments-gpu.yml conda environment (tensorflow with GPU)
-## To train the model
-         We have to point to the directory to where the images will be get into.So use -d path as arguement to model.py
- ``` python model.py to be modified. ```
 
 # **Model Architecture design**
 _______________________
