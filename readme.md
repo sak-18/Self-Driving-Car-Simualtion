@@ -1,5 +1,5 @@
 # Self driving Car Simulation
-# Installation_requirements
+# Installation Requirements
 ## Unity Game engine
 You can install Unity game engine at https://unity3d.com .You can use personal version for udacity self driving car simulation.
 ## Git LFS
@@ -11,7 +11,6 @@ Open terminal on your computer and clone the project.
 You may need anaconda installed for setting up the required environment.
 
 # Project Description
-_________________
 We used two models to train the self driving car simulator.one was based on Nvidia Model and we used another model based on VGG16 by removing top layer.
 It is a supervised learning model based on the images captured by car and corresponding steering angles.It is sequential and single agent based.
 
@@ -25,8 +24,6 @@ As the image is processed, the model is using convolutional layers for automated
 * environments-gpu.yml conda environment (tensorflow with GPU)
 
 # **Model Architecture design**
-_______________________
-
 The design of the network based on Nvidia Model and we made some changes to reduce overfitting and introduced non linearity.
 * We used dropout layer to avoid overfitting and used lambda layer to make gradients work better and by using ELU activation function we were able to introduce non-linearity.
 
