@@ -1,0 +1,1 @@
+This is a reinforcement learning based Game based on self driving car developed using kivy.The user has freedom to draw the path with obstacles and the AI car will complete it without hitting any obstacles.
